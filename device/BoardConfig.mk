@@ -21,6 +21,7 @@ BOARD_BOOTIMAGE_PARTITION_SIZE := 96000000 # размер образа ядра 
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0 # размер образа рекавери в байтах
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4000000000 # размер образа системы в байтах
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 1294991360 # размер образа для хранения данных пользователя в байтах
+BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 1500000000 # размер образа vendor
 BOARD_HAS_NO_CACHE_PARTITION := true
 
 AB_OTA_UPDATER := true # активация режима обновления по схеме A/B
